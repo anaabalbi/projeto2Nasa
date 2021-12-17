@@ -33,14 +33,37 @@ header {
 }
 
 .logo {
-  height: 90%;
-  width: 15%;
+  height: 150px;
+  width: 150px;
   background-image: url('./imagem/nasa.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.principal {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.responsivo {
+  width: 80%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -40px;
+}
+
+.descrição {
+  color: rgb(76, 164, 214);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
 .enviar {
   width: 80%;
   height: 20%;
@@ -50,7 +73,7 @@ header {
 }
 
 .data {
-  height: 40%;
+  height: 40px;
   width: 25%;
   font-size: 17px;
 }
@@ -67,36 +90,22 @@ button {
   text-align: center;
   margin-left: 3%;
 }
-
-.principal {
-  height: 70%;
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.descrição {
-  color: rgb(76, 164, 214);
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 20px;
-}
 .apod {
   display: flex;
   height: 70%;
-  width: 90%;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
 }
 .conteudo {
-  height: 40%;
-  width: 50%;
+  height: 100%;
+  width: 60%;
   color: cornsilk;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-size: auto;
 }
 .titulo {
   text-align: center;
@@ -109,10 +118,40 @@ button {
 }
 
 .foto {
-  height: 80%;
-  width: 40%;
+  height: 70%;
+  width: 30%;
   display: none;
 }
 
-@media screen(min) {
+@media (max-width: 750px) {
+  body {
+    height: auto;
+    width: 100%;
+  }
+  .responsivo {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .enviar {
+    flex-direction: column;
+    height: 100px;
+    margin: 20px;
+  }
+  .data {
+    height: 100px;
+    width: 180px;
+    margin-bottom: 20px;
+  }
+
+  .apod {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
