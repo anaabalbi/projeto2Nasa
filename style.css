@@ -41,6 +41,33 @@ header {
   background-position: center;
 }
 
+.enviar {
+  width: 80%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data {
+  height: 40%;
+  width: 20%;
+  font-size: 17px;
+}
+
+button {
+  background: #b4a7d6;
+  border: 1px solid #556699;
+  border-radius: 11px;
+  box-shadow: 0 1px #444444;
+  padding: 9px 15px;
+  color: #ffffff;
+  display: inline-block;
+  font: normal bold 17px/1 'Caviar', sans-serif;
+  text-align: center;
+  margin-left: 3%;
+}
+
 .principal {
   height: 70%;
   width: 70%;
