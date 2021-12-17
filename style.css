@@ -70,7 +70,7 @@ button {
 
 .principal {
   height: 70%;
-  width: 70%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -82,22 +82,33 @@ button {
   font-family: 'Ubuntu Mono', monospace;
   font-size: 20px;
 }
-.conteudo {
-  height: 30%;
-  width: 80%;
-  color: cornsilk;
+.apod {
+  display: flex;
+  height: 70%;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
 }
-.conteudo h1 {
+.conteudo {
+  height: 40%;
+  width: 50%;
+  color: cornsilk;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.titulo {
   text-align: center;
   margin-bottom: 2%;
   font-family: 'Ubuntu Mono', monospace;
 }
-.conteudo p {
+.texto {
   color: cornsilk;
   font-family: 'Ubuntu Mono', monospace;
 }
 
 .foto {
-  height: 50%;
-  width: 30%;
+  height: 80%;
+  width: 40%;
 }
