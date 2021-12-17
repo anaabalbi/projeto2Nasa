@@ -29,6 +29,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Righteous', cursive;
 }
 
 .logo {
@@ -51,6 +52,7 @@ header {
 
 .principal p {
   color: rgb(163, 211, 211);
+  font-family: 'Ubuntu Mono', monospace;
 }
 .conteudo {
   height: 20%;
@@ -60,6 +62,7 @@ header {
 .conteudo h1 {
   text-align: center;
   margin-bottom: 2%;
+  font-family: 'Ubuntu Mono', monospace;
 }
 .conteudo p {
   color: cornsilk;
