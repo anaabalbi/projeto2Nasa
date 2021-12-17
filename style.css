@@ -9,7 +9,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  background-image: url('./outerspace-6.gif');
+  background-image: url('./imagem/outerspace-6.gif');
   background-size: cover;
   flex-direction: column;
 }
