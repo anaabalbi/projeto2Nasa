@@ -9,7 +9,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  background-image: url('./imagem/outerspace-6.gif');
+  background-image: url('./imagem/519c2270779257.5bae709dac7d8.gif');
   background-size: cover;
   flex-direction: column;
 }
@@ -78,8 +78,8 @@ button {
 }
 
 .descrição {
-  color: rgb(163, 211, 211);
-  font-family: 'Ubuntu Mono', monospace;
+  color: cadetblue;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
 }
 .apod {
@@ -111,4 +111,5 @@ button {
 .foto {
   height: 80%;
   width: 40%;
+  display: none;
 }

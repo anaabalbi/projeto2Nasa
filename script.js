@@ -8,6 +8,7 @@ $('.envia').click(function () {
       $('.foto').attr('src', data.url);
       $('.titulo').text(data.title);
       $('.texto').text(data.explanation);
+      $('.foto').css('display', 'flex');
     },
   });
 });
