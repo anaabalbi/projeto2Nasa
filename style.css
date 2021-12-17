@@ -78,7 +78,7 @@ button {
 }
 
 .descrição {
-  color: cadetblue;
+  color: rgb(76, 164, 214);
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
 }
@@ -112,4 +112,7 @@ button {
   height: 80%;
   width: 40%;
   display: none;
+}
+
+@media screen(min) {
 }
